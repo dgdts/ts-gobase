@@ -1,0 +1,71 @@
+# dfaljk jklfasdk
+welcome:
+  zh_CN: 欢迎！
+  zh_TW: 歡迎！
+  en_US: Welcome!
+  ja: ようこそ！
+  es: ¡Bienvenido!
+  ko: 환영합니다！
+  pt: Bem-vindo！
+  fr: Bienvenue
+  de: Willkommen！
+  ru: Добро пожаловать！
+  th: ยินดีต้อนรับ！
+  id: Selamat datang！
+goodbye:
+  zh_CN: 再见！
+  zh_TW: 再見！
+  en_US: Goodbye!
+  ja: さようなら！
+  es: ¡Adiós!
+  ko: 안녕히 가세요！
+  pt: Adeus！
+  fr: Au revoir！
+  de: Auf Wiedersehen！
+  ru: До свидания！
+  th: ลาก่อน！
+  id: Selamat tinggal！
+cats:
+  zh_CN: 我有{{.PluralCount}}只猫。
+  zh_TW: 我有{{.PluralCount}}隻貓。
+  en_US: I have {{.PluralCount}} cat(s).
+  ja: 私は{{.PluralCount}}匹の猫を飼っています。
+  es: Tengo {{.PluralCount}} gato(s).
+  ko: 나는 고양이 {{.PluralCount}}마리를 키우고 있어요.
+  pt: Eu tenho {{.PluralCount}} gato(s).
+  fr: J'ai {{.PluralCount}} chat(s).
+  de: Ich habe {{.PluralCount}} Katze(n).
+  ru: У меня {{.PluralCount}} кошек.
+  th: ฉันมีแมว {{.PluralCount}} ตัว
+  id: Saya memiliki {{.PluralCount}} kucing.
+
+# Messages with multiple parameters
+pet_owner:
+  zh_CN: "{{.Name}}今年{{.Age}}岁，有{{.PluralCount}}只{{.PetType}}。"
+  zh_TW: "{{.Name}}今年{{.Age}}歲，有{{.PluralCount}}隻{{.PetType}}。"
+  en_US: "{{.Name}} is {{.Age}} years old and has {{.PluralCount}} {{.PetType}}(s)."
+  ja: "{{.Name}}は{{.Age}}歳で、{{.PluralCount}}匹の{{.PetType}}を飼っています。"
+  es: "{{.Name}} tiene {{.Age}} años y tiene {{.PluralCount}} {{.PetType}}(s)."
+  ko: "{{.Name}}는 {{.Age}}살이고, {{.PetType}} {{.PluralCount}}마리를 키우고 있어요."
+  pt: "{{.Name}} tem {{.Age}} anos e tem {{.PluralCount}} {{.PetType}}(s)."
+  fr: "{{.Name}} a {{.Age}} ans et possède {{.PluralCount}} {{.PetType}}(s)."
+  de: "{{.Name}} ist {{.Age}} Jahre alt und hat {{.PluralCount}} {{.PetType}}(n)."
+  ru: "{{.Name}} {{.Age}} лет, и у него/нее {{.PluralCount}} {{.PetType}}."
+  th: "{{.Name}} อายุ {{.Age}} ปี มี{{.PetType}} {{.PluralCount}} ตัว"
+  id: "{{.Name}} berusia {{.Age}} tahun dan memiliki {{.PluralCount}} {{.PetType}}."
+
+greeting_time:
+  zh_CN: "{{.Name}}，现在是{{.Time}}，{{.Message}}"
+  zh_TW: "{{.Name}}，現在是{{.Time}}，{{.Message}}"
+  en_US: "{{.Name}}, it's {{.Time}}, {{.Message}}"
+  ja: "{{.Name}}さん、{{.Time}}です。{{.Message}}"
+  es: "{{.Name}}, son las {{.Time}}, {{.Message}}"
+  ko: "{{.Name}}님, {{.Time}}입니다. {{.Message}}"
+  pt: "{{.Name}}, são {{.Time}}, {{.Message}}"
+  fr: "{{.Name}}, il est {{.Time}}, {{.Message}}"
+  de: "{{.Name}}, es ist {{.Time}}, {{.Message}}"
+  ru: "{{.Name}}, сейчас {{.Time}}, {{.Message}}"
+  th: "{{.Name}} ตอนนี้เวลา {{.Time}} {{.Message}}"
+  id: "{{.Name}}, sekarang {{.Time}}, {{.Message}}"
+
+
