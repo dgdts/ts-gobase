@@ -86,7 +86,7 @@ func (r *RedisClient) connect() redis.UniversalClient {
 	return r.client
 }
 
-func RegisterConnection(configs map[string]*RedisClient) {
+func InitRedis(configs map[string]*RedisClient) {
 	getRedisClientManagerInstance().updateConfigs(configs)
 }
 

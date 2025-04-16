@@ -20,7 +20,7 @@ func WithTimeout(timeout time.Duration) func(opt *mgm.Config) {
 
 var ormClient *OrmClient
 
-func InitMongoDB(configs *MongoClientConfig, opts ...func(opt *mgm.Config)) error {
+func InitOrmMongoDB(configs *MongoClientConfig, opts ...func(opt *mgm.Config)) error {
 	ormClient = &OrmClient{
 		MongoClientConfig: *configs,
 	}

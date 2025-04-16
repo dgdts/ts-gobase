@@ -82,7 +82,7 @@ func (mc *MongoClientConfig) getURI() string {
 	return fmt.Sprintf("mongodb://%s:%s@%s", mc.Username, mc.Password, mc.Path)
 }
 
-func RegisterConnection(configs *MongoClientConfig) {
+func InitMongoDB(configs *MongoClientConfig) {
 	getMongoClientManagerInstance().connection.MongoClientConfig = *configs
 	getMongoClientManagerInstance().connection.connect()
 }
