@@ -1,4 +1,4 @@
-module ts-gobase
+module github.com/dgdts/ts-gobase
 
 go 1.23.8
 
